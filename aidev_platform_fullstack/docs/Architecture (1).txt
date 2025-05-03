@@ -1,0 +1,96 @@
+AIDev Platform – Autonomous Superintelligence Full-stack AI agent system for autonomous task execution
+
+
+AIDev Platform
+│
+├── 🧠 Autonomous Cognition Core (AI Brain Layer)
+│   ├── Universal Planner Agent (task → plan → agents)
+│   ├── Goal Decomposer (multi-step task → subgoals)
+│   ├── Adaptive Feedback Loop (learn from errors, retry logic)
+│   ├── Contextual Memory System (short-term + long-term + episodic)
+│   ├── Thought Replay Engine (review past task trails to improve)
+│   └── Meta-Cognition Agent (monitors and adjusts thinking process)
+│
+├── 🤖 Multi-Agent Operating System (Agent OS)
+│   ├── General Agents
+│   │   ├── Dev Agent
+│   │   ├── UI Agent
+│   │   ├── Infra Agent
+│   │   ├── Docs Agent
+│   │   ├── File Agent
+│   │   ├── Test Agent
+│   │   ├── Terminal Agent
+│   │   ├── Web Agent
+│   │   ├── Installer Agent
+│   │   ├── Automation Agent
+│   │   └── Planner Agent
+│   ├── Internet & API Agents
+│   │   ├── API Task Agent
+│   │   ├── WebAutomation Agent
+│   │   ├── Search Agent
+│   │   ├── Data Extraction Agent
+│   │   └── Web Reasoning Agent
+│   └── Specialized Supervisory Agents
+│       ├── Quality Checker Agent
+│       ├── Safety & Ethics Agent
+│       └── Resource Optimizer Agent
+│
+├── ⚙️ Execution & Reasoning Layer
+│   ├── Multi-Agent Executor (parallel + sequential agent flows)
+│   ├── Observation Synthesizer (reads web/CLI output → insights)
+│   ├── Command Synthesizer (goals → commands/scripts/clicks)
+│   ├── Secure Terminal Executor (with correction and trace)
+│   ├── Sandbox Runtime System
+│   │   ├── Isolated Env Generator (Docker/Firejail)
+│   │   ├── Autonomous Task Sandbox
+│   │   └── Error Capture & Correction Engine
+│   └── Task Timeline & Control Layer
+│       ├── Pause / Resume / Retry / Rewind
+│       └── Task Audit Logs + Explainable Trails
+│
+├── ✨ Live Reasoning & Preview System
+│   ├── Live UI & Game Preview
+│   ├── CLI/GUI Output Interpreter
+│   ├── Auto-Error Diagnosis + Recovery Plans
+│   └── Visual Task Flow Debugger
+│
+├── 🧬 Code Intelligence Engine
+│   ├── Code Analyzer (syntax, logic, dependency)
+│   ├── Code Manipulator (insert, refactor, optimize)
+│   ├── Code Critic Agent (review & explain)
+│   ├── Autonomous Code Repair Agent
+│   └── Continuous Code Reasoning Layer
+│
+├── 🌐 AI Prompt & Model Orchestration
+│   ├── Prompt Compiler + Planner
+│   ├── System Prompt Architect (per agent/task)
+│   ├── Model Providers Manager
+│   │   ├── Ollama Local Models (LLaMA3, CodeLlama, Deepseek, etc. detect from system)
+│   │   ├── External LLM APIs (open AI, GPT-4o, o3, o4 , Gemini, Claude, Mistral, deepseek r1 and v3, grok 3 , qwen etc.)
+│   │   ├── OpenRouter & Custom llm Providers
+│   │   ├── Local API Key Manager (user-defined)
+│   │   └── Task-Based Model Selector (dynamic switching)
+│
+├── 🔍 File, Web & Knowledge Access Layer
+│   ├── File System Crawler (with semantic indexing)
+│   ├── Web Browsing Interface (simulated + headless)
+│   ├── CLI Tools Knowledge Parser
+│   ├── API Indexers (pip, apt, npm, etc.)
+│   └── Intelligent Download/Uploader Agent
+│
+├── 🔁 Automation Core
+│   ├── Workflow Engine (task graph engine)
+│   ├── Automation Scripts Generator (shell, Python, etc.)
+│   ├── Self-Executing Task Graphs (auto-retries + branching)
+│   └── Cross-Agent Sync Layer (ensures agent coordination)
+│
+└── 🧩 Core Services Layer
+    ├── Git Snapshot Manager (versioned timelines)
+    ├── Role & Auth System (user + AI agent control)
+    ├── Memory Store (KV + vector + file + episodic memory)
+    ├── LLM Token Monitor (usage, cost, response latency)
+    ├── AI Safety Kernel (critical action interception)
+    └── User Customization Engine
+        ├── Task Templates + Agent Packs
+        ├── Model/API Preferences
+        └── Local + Cloud Config Sync
